@@ -36,7 +36,7 @@ username_input.send_keys('12312312')  # 替换成用户名
 password_input = driver.find_element_by_css_selector('#password')
 password_input.send_keys('123123123')  # 替换成密码
 
-login_button = driver.find_element_by_css_selector('#fm1 > div.yz-pc-loginbtn > input.btn_login.yz_btn_login')
+login_button = driver.find_element_by_css_selector('#fm1 > div.yz-pc-loginbtn > input.yz_btn_login')
 login_button.click()
 
 agree_btn = go_forward(driver, 'https://yz.chsi.com.cn/apply/newApply.do', '#agree-btn')
